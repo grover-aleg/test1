@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 48rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin: auto auto; 
+    font-family: "Inter", monospace, sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+p {
+    line-height: 1.75rem;
+}
+
+h2 {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+table {
+    margin-top: 2rem;
+    width: 100%;
+    text-align: justify;
+    border-collapse: collapse;
+}
+
+th {
+    width: 33.3%;
+    padding-bottom: .625rem;
+}
+
+td {
+    padding-top: .9375rem;
+    padding-bottom: .9375rem;
+}
+
+ul {
+    margin-top: 1.25rem;
+}
+
+aside {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+address {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+small {
+    display: block;
+    margin-bottom: 1.25rem;
+    font-size: 16px;
+    line-height: 1.75rem;
+}
+
+footer {
+    background-color: #F5F5F5;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 1.5rem;
+}
+
+a {
+    color: #6D28D9;
+    font-weight: 500;
+}
+
+figure {
+    text-align: center;
+    margin-top:2rem;
+}
+
+figcaption {
+    color: grey;
+    margin-top: .75rem;
+}
+
+ul li{
+    line-height: 1.75rem;
+}
+
+li::marker {
+    color: #6D28D9;
+}
+
